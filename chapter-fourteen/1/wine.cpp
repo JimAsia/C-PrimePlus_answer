@@ -15,8 +15,8 @@ Wine::Wine()
 Wine::Wine(const char* l, int y, const int ye[], const int bot[])
 	:label(l), year(y)
 {
-		years_bolltes.first() = ArrayInt(ye, year);
-		years_bolltes.second() = ArrayInt(bot, year);
+	years_bolltes.first() = ArrayInt(ye, year);
+	years_bolltes.second() = ArrayInt(bot, year);
 
 }
 
